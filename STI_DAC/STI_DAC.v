@@ -1,3 +1,7 @@
+`include "STI.v"
+`include "DAC.v"
+`include "controller.v"
+
 module STI_DAC(clk ,reset, load, pi_data, pi_length, pi_fill, pi_msb, pi_low, pi_end,
 	       so_data, so_valid,
 	       oem_finish, oem_dataout, oem_addr,
